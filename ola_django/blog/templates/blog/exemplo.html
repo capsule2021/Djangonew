@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% comment %} <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -81,4 +81,9 @@
         <p>&copy; 2024 Blog de Pets. Todos os direitos reservados.</p>
     </footer>
 </body>
-</html>
+</html> {% endcomment %}
+{% comment %} {% extends 'global/base.html' %} {% endcomment %}
+
+{% comment %} {% extends 'global/base.html' %} {% endcomment %}
+
+{% block texto %} {{ text }} {% endblock texto %}
